@@ -1,0 +1,22 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    23                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: juriot <marvin@42.fr>                      +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/03/28 18:37:35 by juriot            #+#    #+#              #
+#    Updated: 2019/03/28 18:47:19 by juriot           ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+En graphique : 
+  deconnecter l'utilisateur actuel, ou redemarrer la VM
+  se connecter en tant aue nouvel utilisateur
+
+En session ssh : 
+  ssh new_user@IP -p 2020
+
+En mode console : 
+  sudo login new_user
+

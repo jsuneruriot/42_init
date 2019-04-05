@@ -1,0 +1,45 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    19                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: juriot <marvin@42.fr>                      +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/03/27 20:56:07 by juriot            #+#    #+#              #
+#    Updated: 2019/03/28 19:06:56 by juriot           ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+sudo systemctl list-unit-files --type service | grep enabled
+
+# ces services sont appeles daemon
+# 	accounts-daemon.service                    enabled
+# 	anacron.service                            enabled
+# 	autovt@.service                            enabled
+# 	avahi-daemon.service                       enabled
+# 	bluetooth.service                          enabled
+# 	console-setup.service                      enabled
+#	cron.service                               enabled
+#	cups-browsed.service                       enabled
+#	cups.service                               enabled
+#	dbus-org.bluez.service                     enabled
+#	dbus-org.freedesktop.Avahi.service         enabled
+#	dbus-org.freedesktop.ModemManager1.service enabled
+#	dbus-org.freedesktop.nm-dispatcher.service enabled
+#	getty@.service                             enabled
+#	keyboard-setup.service                     enabled
+#	minissdpd.service                          enabled
+#	ModemManager.service                       enabled
+#	network-manager.service                    enabled
+#	networking.service                         enabled
+#	NetworkManager-dispatcher.service          enabled
+#	NetworkManager-wait-online.service         enabled
+#	NetworkManager.service                     enabled
+#	pppd-dns.service                           enabled
+#	rsyslog.service                            enabled
+#	rtkit-daemon.service                       enabled
+#	ssh.service                                enabled
+#	sshd.service                               enabled
+#	syslog.service                             enabled
+#	systemd-timesyncd.service                  enabled
+#	unattended-upgrades.service                enabled
